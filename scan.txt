@@ -7,3 +7,7 @@ x := x -1 ;
 until x = 0 ;
 write fact ;
 end
+
+
+for toke in sc.tokens:
+    toke.Print()
